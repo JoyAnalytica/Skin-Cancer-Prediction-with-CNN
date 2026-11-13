@@ -1,23 +1,26 @@
-# Skin-Cancer-Prediction-with-CNN
-
 # 🔬 DermaAI — Skin Cancer Prediction with CNN
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-CNN-orange?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-Deployed-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
   <img src="https://img.shields.io/badge/Deep%20Learning-Image%20Classification-purple?style=for-the-badge" />
 </p>
 
 <p align="center">
   <b>AI-Powered Skin Lesion Classification System</b>
   <br/>
-  An intelligent image classification project built using Convolutional Neural Networks (CNN).
+  A deep learning application that classifies skin lesion images into Benign or Malignant using Convolutional Neural Networks (CNN).
 </p>
 
 <p align="center">
-  <a href="YOUR_DEPLOYED_APP_URL">🚀 Live Demo</a> •
-  <a href="https://github.com/JoyAnalytica/Skin-Cancer-Prediction-with-CNN">📂 GitHub Repository</a>
+  <a href="https://skin-cancer-prediction-with-cnn-fc5wpmgvpef7a5npwaypz8.streamlit.app/">
+    🚀 LIVE DEMO
+  </a>
+  &nbsp; | &nbsp;
+  <a href="https://github.com/JoyAnalytica/Skin-Cancer-Prediction-with-CNN">
+    📂 GitHub Repository
+  </a>
 </p>
 
 ---
@@ -26,19 +29,16 @@
 
 **DermaAI** is a deep learning-based web application designed to classify skin lesion images into two categories: **Benign** and **Malignant**.
 
-The project uses a Convolutional Neural Network (CNN) to analyze uploaded skin images and generate predictions with confidence scores.
-
-The application provides a simple and interactive interface where users can upload an image and view the model's prediction instantly.
+Built using a Convolutional Neural Network (CNN), the application analyzes uploaded skin images and generates predictions with confidence scores through an interactive Streamlit interface.
 
 ## ✨ Key Features
 
-- 🧠 CNN-based skin lesion image classification.
-- 📤 Upload skin images in JPG, JPEG, and PNG formats.
-- 🔍 Automatic image preprocessing and normalization.
-- 📊 Prediction results with confidence scores.
-- 📈 Class probability visualization.
-- 🎨 Modern and responsive Streamlit interface.
-- ⚡ Real-time model inference.
+- 🧠 CNN-based image classification
+- 📤 Upload skin lesion images
+- 🔍 Automatic image preprocessing
+- 📊 Prediction with confidence scores
+- 🎯 Benign and Malignant classification
+- ⚡ Interactive Streamlit web application
 
 ## 🎯 Prediction Classes
 
@@ -49,11 +49,10 @@ The application provides a simple and interactive interface where users can uplo
 
 ## 📊 Model Performance
 
-The CNN model was evaluated using a separate test dataset.
+Evaluated on a separate test dataset.
 
-| Evaluation Metric | Score |
+| Metric | Score |
 |---|---:|
-| Accuracy | 88.85% |
 | Balanced Accuracy | 88.85% |
 
 **Confusion Matrix**
@@ -63,35 +62,32 @@ The CNN model was evaluated using a separate test dataset.
 | Benign | 852 | 148 |
 | Malignant | 75 | 925 |
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack
 
-- **Programming:** Python
-- **Deep Learning:** TensorFlow, Keras
-- **Image Processing:** NumPy, Pillow
-- **Web Framework:** Streamlit
-- **Model:** Convolutional Neural Network (CNN)
-- **Deployment:** Streamlit Cloud / Hosting Platform
+- Python
+- TensorFlow & Keras
+- Convolutional Neural Network (CNN)
+- NumPy
+- Pillow
+- Streamlit
 
-## 🖥️ Application Workflow
+## 🔄 Application Workflow
 
 1. Upload a skin lesion image.
-2. The application preprocesses the image.
-3. The CNN model analyzes image features.
-4. The model predicts Benign or Malignant.
-5. The application displays the prediction and confidence score.
+2. Preprocess and normalize the image.
+3. Extract image features using CNN.
+4. Generate the prediction.
+5. Display the predicted class and confidence score.
 
-## 📂 Project Structure
+## 🚀 Live Application
 
-```text
-Skin-Cancer-Prediction-with-CNN/
-│
-├── main.py
-├── cnn_model.keras
-├── requirements.txt
-└── README.md
-```
+<p align="center">
+  <a href="https://skin-cancer-prediction-with-cnn-fc5wpmgvpef7a5npwaypz8.streamlit.app/">
+    <img src="https://img.shields.io/badge/OPEN%20LIVE%20APP-Click%20Here-success?style=for-the-badge&logo=streamlit" />
+  </a>
+</p>
 
-## ⚙️ Installation & Setup
+## ⚙️ Run Locally
 
 **1. Clone the repository**
 
@@ -99,7 +95,7 @@ Skin-Cancer-Prediction-with-CNN/
 git clone https://github.com/JoyAnalytica/Skin-Cancer-Prediction-with-CNN.git
 ```
 
-**2. Navigate to the project directory**
+**2. Open project directory**
 
 ```bash
 cd Skin-Cancer-Prediction-with-CNN
@@ -111,25 +107,15 @@ cd Skin-Cancer-Prediction-with-CNN
 pip install -r requirements.txt
 ```
 
-**4. Run the Streamlit application**
+**4. Run the application**
 
 ```bash
 streamlit run main.py
 ```
 
-**5. Open in your browser**
-
-```text
-http://localhost:8501
-```
-
 ## ⚠️ Medical Disclaimer
 
-This project is developed for educational and research purposes only.
-
-It is not a clinically validated medical diagnostic tool. Model predictions may contain errors and should never replace professional medical advice, diagnosis, or treatment.
-
-Always consult a qualified dermatologist regarding skin health concerns.
+This project is developed for educational and research purposes only. It is not a clinically validated diagnostic tool and should not replace professional medical advice or diagnosis. Always consult a qualified dermatologist for medical concerns.
 
 ## 👨‍💻 Author
 
@@ -142,6 +128,8 @@ Aspiring Data Analyst | Machine Learning & Deep Learning Enthusiast
 ---
 
 <p align="center">
+  ⭐ If you find this project useful, please consider giving it a star!
+  <br
   ⭐ If you find this project interesting, consider giving it a star!
   <br/>
   <b>Built with ❤️ using Python, TensorFlow & Streamlit</b>
