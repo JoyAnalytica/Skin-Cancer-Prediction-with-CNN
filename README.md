@@ -27,7 +27,7 @@
 
 ## 📌 Project Overview
 
-**DermaAI** is a deep learning-based web application designed to classify skin lesion images into two categories: **Benign** and **Malignant**.
+*skin* is a deep learning-based web application designed to classify skin lesion images into two categories: **Benign** and **Malignant**.
 
 Built using a Convolutional Neural Network (CNN), the application analyzes uploaded skin images and generates predictions with confidence scores through an interactive Streamlit interface.
 
